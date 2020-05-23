@@ -6,10 +6,10 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site title
-title: "Xcent - Jekyll"
+title: "Sara Thulin - Counselor in TA"
 
 # A description of your site for social meta tag, search engines, and feed.xml
-description: "Xcent is a Responsive One Page Personal Template for creative people. Xcent can be used for many purposes starting from minimal portfolios, freelancers, photography and much more."
+description: "Sara Thulin -- a Swede in Germany lived, cried, laughed, talked and sang through the daily challenges of living abroad."
 
 
 # The subpath of your site, e.g. /blog, for generating urls
@@ -28,8 +28,8 @@ disqus:
 author_name: "SARA THULIN"
 
 # Social links in the site footer
-twitter_username: "username"
-facebook_username: "username"
-googleplus_username: "+username"
-pinterest_username: "username"
-linkedin_username: "username"
+twitter_username:
+facebook_username:
+googleplus_username:
+pinterest_username:
+linkedin_username: "sarathulin"
