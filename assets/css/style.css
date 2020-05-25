@@ -6,7 +6,7 @@
 * Version  : 1.1
 * Author   : beingeorge
 * Support  : hello@beingeorge.com
-* 
+*
 ------------------*/
 
 
@@ -21,7 +21,7 @@
 5. Servise
 6. About
 7. Testimonial
-8. Blog	
+8. Blog
 9. Contact and Map
 10. Footer
 11. Scroll to top
@@ -316,7 +316,7 @@ textarea.form-control {
 .btn-custom-2.active {
 	background: rgba(253,115,90,1);
 	color: #fff;
-	box-shadow: 0px 10px 20px rgba(0,0,0,0.1) 
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.1)
 }
 
 .btn-custom-3 {
@@ -419,6 +419,10 @@ textarea.form-control {
 .module-header {
 	margin: 0 0 50px;
 	text-align: center;
+}
+
+.centered {
+    text-align: center;
 }
 
 .module-header-left {
@@ -1280,7 +1284,7 @@ figure {
 }
 
 .blog-detail-content h2 {
-	margin: 25px 0;	
+	margin: 25px 0;
 }
 
 .blog-detail-content blockquote {
@@ -1600,12 +1604,12 @@ figure {
 .tags-wrapper h2 {
 	padding: 20px 0;
 	margin: 0;
-} 
+}
 
 .tags-wrapper ul, .tags-wrapper li {
 	padding: 0;
 	list-style: none;
-} 
+}
 
 .article {
     padding: 20px;
@@ -1623,16 +1627,16 @@ figure {
 	font-size: 16px;
 }
 
-.posts-list li span { 
-	font-size: 13px;	
-} 
+.posts-list li span {
+	font-size: 13px;
+}
 
 .recent-wrapper {
 	padding: 20px !important;
 }
 
 .recent-posts {
-	
+
 }
 
 /* ---------------------------------------------- /*

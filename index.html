@@ -9,7 +9,7 @@ layout: default
 		<div class="intro">
 			<div class="hello">Hello, my name is Sara Thulin and</div>
 			<h1>I am a certified Counselor</h1>
-			<div class="who-creates">creating a safe place with you and for you to share and talk<!-- about your life abroad here in Germany--></div>
+			<div class="who-creates">creating a safe place with you and for you, to share and talk<!-- about your life abroad here in Germany--></div>
 		</div>
 
 		<div class="mouse-icon">
@@ -41,11 +41,12 @@ layout: default
                 <div class="collapse navbar-collapse" id="custom-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home">home</a></li>
-                        <li><a href="#portfolio">Works</a></li>
+                        <li><a href="#welcome">Welcome</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <!--<li><a href="#portfolio">Works</a></li>-->
                         <li><a href="#services">Service</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#testimonial">Testimonial</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <!--<li><a href="#testimonial">Testimonial</a></li>-->
+                        <!--<li><a href="#blog">Blog</a></li>-->
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
@@ -58,237 +59,30 @@ layout: default
 
     <!-- Navigation end -->
 
-	<!-- Portfolio start -->
+    <!-- Welcome start -->
 
-	<section id="portfolio" class="module">
-		<div class="container">
-			<div class="row">
+    <section id="welcome" class="module">
+        <div class="container">
+            <div class="row">
 
-				<div class="module-header">
-					<h2 class="module-title">
-						My works
-						<span>Portfolio</span>
-					</h2>
-					<div class="module-line"></div>
-				</div>
+                <div class="module-header">
+                    <h2 class="module-title">
+                        Welcome
+                        <span>at home</span>
+                    </h2>
+                    <div class="module-line"></div>
+                </div>
 
-			</div><!-- .row -->
+            </div><!-- .row -->
 
-			<!-- Portfolio Filter start-->
+            <div class="centered">
+                <h3>{{site.welcome_message}}</h3>
+                <span>Feeling understood, and able to talk and express yourself in English, Swedish or German.</span>
+            </div>
+        </div>
+    </section>
 
-			<div class="row">
-
-				<div class="col-sm-12">
-
-					<ul id="filter">
-						<li class="active" data-group="all">All</li>
-						<li data-group="slideshow">Slideshow</li>
-						<li data-group="video">Video</li>
-						<li data-group="image">Image</li>
-					</ul>
-
-				</div>
-
-			</div><!-- .row -->
-
-			<!-- Portfolio Filter end -->
-
-		</div><!-- .contaier -->
-
-		<ul class="list-items-container">
-
-			<li class="list-item" data-groups="all slideshow">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p1-1.jpg" alt="p1">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Slideshow</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all video">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p2-2.jpg" alt="p2">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Video</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all image">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p3-3.jpg" alt="p3">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all slideshow">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p4-4.jpg" alt="p4">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Slideshow</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all video">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p5-5.jpg" alt="p5">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Video</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-			<li class="list-item" data-groups="all image">
-				<figure>
-					<img src="{{site.baseurl}}assets/images/p6-6.jpg" alt="p6">
-					<figcaption>
-						<a href="{{site.baseurl}}assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
-						<div class="caption-inner">
-							<h3 class="portfolio-item-title">Some work one</h3>
-							<div class="portfolio-item-desc">Image</div>
-						</div>
-					</figcaption>
-				</figure>
-			</li>
-
-		</ul><!-- .projects-container -->
-
-	</section>
-
-	<!-- Portfolio end -->
-
-	<!-- Services start -->
-
-	<section id="services" class="module module-gray">
-		<div class="container">
-
-			<div class="module-header wow fadeInUp">
-				<h2 class="module-title">
-					My Services
-					<span>Services</span>
-				</h2>
-				<div class="module-line"></div>
-			</div>
-
-			<div class="row">
-
-				<div class="col-sm-4">
-					<div class="iconbox wow fadeInUp">
-						<div class="iconbox-icon">
-							<i class="fas fa-desktop"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Design</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="iconbox wow fadeInUp">
-						<div class="iconbox-icon">
-							<i class="fas fa-code"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Web Development</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4">
-					<div class="iconbox wow fadeInUp" data-wow-delay=".2s">
-						<div class="iconbox-icon">
-							<i class="fab fa-sketch"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Logo Design</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4">
-
-					<div class="iconbox wow fadeInUp" data-wow-delay=".4s">
-						<div class="iconbox-icon">
-							<i class="far fa-comments"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Marketing</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-4">
-
-					<div class="iconbox wow fadeInUp" data-wow-delay=".6s">
-						<div class="iconbox-icon">
-							<i class="fas fa-palette"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Design</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="col-sm-4">
-
-					<div class="iconbox wow fadeInUp" data-wow-delay=".8s">
-						<div class="iconbox-icon">
-							<i class="fas fa-rocket"></i>
-						</div>
-						<div class="iconbox-text">
-							<h3 class="iconbox-title">Branding</h3>
-							<div class="iconbox-desc">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
-
-	<!-- Services end -->
+    <!-- Welcome end -->
 
 	<!-- About start -->
 
@@ -310,6 +104,11 @@ layout: default
 								<span>About</span>
 							</h2>
 							<div class="module-line"></div>
+                            <div class="centered">
+                                <span>
+                                    My Name is Sara Thulin. In short: A happy Swede in Germany that lives, cries, laughs, talks and sings through and about the daily challenges of living abroad.
+                                </span>
+                            </div>
 						</div>
 
 					</div>
@@ -318,16 +117,19 @@ layout: default
 
 				<div class="row">
 
+
+
+
 					<div class="col-sm-6">
 
 						<div class="iconboxleft wow fadeInUp">
 							<div class="iconboxleft-icon">
-								<i class="fas fa-camera-retro"></i>
+								<i class="fas fa-life-ring"></i>
 							</div>
 							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Photographer</h3>
+								<h3 class="iconboxleft-title">Counselor</h3>
 								<div class="iconboxleft-desc">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt .
+                                    Certified Counselor in Transactional Psychology with strong background in Social Psychology. Read more on my development <a href="https://www.linkedin.com/in/sarathulin/">here</a>.
 								</div>
 							</div>
 						</div>
@@ -338,12 +140,12 @@ layout: default
 
 						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
 							<div class="iconboxleft-icon">
-								<i class="fas fa-headphones-alt"></i>
+								<i class="fas fa-music"></i>
 							</div>
 							<div class="iconboxleft-text">
 								<h3 class="iconboxleft-title">Music</h3>
 								<div class="iconboxleft-desc">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt . 
+                                    Event singer in my spare time. Hear more from me <a href="https://www.youtube.com/channel/UClb6mxiqErHdnPAauliF-rQ">here</a>.
 								</div>
 							</div>
 						</div>
@@ -358,12 +160,12 @@ layout: default
 
 						<div class="iconboxleft wow fadeInUp">
 							<div class="iconboxleft-icon">
-								<i class="fas fa-paint-brush"></i>
+								<i class="fas fa-baby-carriage"></i>
 							</div>
 							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Painting</h3>
+								<h3 class="iconboxleft-title">Mother</h3>
 								<div class="iconboxleft-desc">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+									Proud mother of two, with all the ups and downs.
 								</div>
 							</div>
 						</div>
@@ -374,12 +176,12 @@ layout: default
 
 						<div class="iconboxleft wow fadeInUp" data-wow-delay=".2s">
 							<div class="iconboxleft-icon">
-								<i class="fas fa-hat-wizard"></i>
+								<i class="fas fa-globe-europe"></i>
 							</div>
 							<div class="iconboxleft-text">
-								<h3 class="iconboxleft-title">Magic</h3>
+								<h3 class="iconboxleft-title">International</h3>
 								<div class="iconboxleft-desc">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+									Born in Sweden, lived in America, loved in Germany.
 								</div>
 							</div>
 						</div>
@@ -395,11 +197,244 @@ layout: default
 
 	<!-- About end -->
 
+    <!-- Portfolio start -->
+
+    <!--<section id="portfolio" class="module">
+        <div class="container">
+            <div class="row">
+
+                <div class="module-header">
+                    <h2 class="module-title">
+                        My works
+                        <span>Portfolio</span>
+                    </h2>
+                    <div class="module-line"></div>
+                </div>
+
+            </div>&lt;!&ndash; .row &ndash;&gt;
+
+            &lt;!&ndash; Portfolio Filter start&ndash;&gt;
+
+            <div class="row">
+
+                <div class="col-sm-12">
+
+                    <ul id="filter">
+                        <li class="active" data-group="all">All</li>
+                        <li data-group="slideshow">Slideshow</li>
+                        <li data-group="video">Video</li>
+                        <li data-group="image">Image</li>
+                    </ul>
+
+                </div>
+
+            </div>&lt;!&ndash; .row &ndash;&gt;
+
+            &lt;!&ndash; Portfolio Filter end &ndash;&gt;
+
+        </div>&lt;!&ndash; .contaier &ndash;&gt;
+
+        <ul class="list-items-container">
+
+            <li class="list-item" data-groups="all slideshow">
+                <figure>
+                    <img src="{{site.baseurl}}assets/images/p1-1.jpg" alt="p1">
+                    <figcaption>
+                        <a href="{{site.baseurl}}assets/images/p1-1.jpg" class="simple-ajax-popup"></a>
+                        <div class="caption-inner">
+                            <h3 class="portfolio-item-title">Some work one</h3>
+                            <div class="portfolio-item-desc">Slideshow</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+            <li class="list-item" data-groups="all video">
+                <figure>
+                    <img src="{{site.baseurl}}assets/images/p2-2.jpg" alt="p2">
+                    <figcaption>
+                        <a href="{{site.baseurl}}assets/images/p2-2.jpg" class="simple-ajax-popup"></a>
+                        <div class="caption-inner">
+                            <h3 class="portfolio-item-title">Some work one</h3>
+                            <div class="portfolio-item-desc">Video</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+            <li class="list-item" data-groups="all image">
+                <figure>
+                    <img src="{{site.baseurl}}assets/images/p3-3.jpg" alt="p3">
+                    <figcaption>
+                        <a href="{{site.baseurl}}assets/images/p3-3.jpg" class="simple-ajax-popup"></a>
+                        <div class="caption-inner">
+                            <h3 class="portfolio-item-title">Some work one</h3>
+                            <div class="portfolio-item-desc">Image</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+            <li class="list-item" data-groups="all slideshow">
+                <figure>
+                    <img src="{{site.baseurl}}assets/images/p4-4.jpg" alt="p4">
+                    <figcaption>
+                        <a href="{{site.baseurl}}assets/images/p4-4.jpg" class="simple-ajax-popup"></a>
+                        <div class="caption-inner">
+                            <h3 class="portfolio-item-title">Some work one</h3>
+                            <div class="portfolio-item-desc">Slideshow</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+            <li class="list-item" data-groups="all video">
+                <figure>
+                    <img src="{{site.baseurl}}assets/images/p5-5.jpg" alt="p5">
+                    <figcaption>
+                        <a href="{{site.baseurl}}assets/images/p5-5.jpg" class="simple-ajax-popup"></a>
+                        <div class="caption-inner">
+                            <h3 class="portfolio-item-title">Some work one</h3>
+                            <div class="portfolio-item-desc">Video</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+            <li class="list-item" data-groups="all image">
+                <figure>
+                    <img src="{{site.baseurl}}assets/images/p6-6.jpg" alt="p6">
+                    <figcaption>
+                        <a href="{{site.baseurl}}assets/images/p6-6.jpg" class="simple-ajax-popup"></a>
+                        <div class="caption-inner">
+                            <h3 class="portfolio-item-title">Some work one</h3>
+                            <div class="portfolio-item-desc">Image</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </li>
+
+        </ul>&lt;!&ndash; .projects-container &ndash;&gt;
+
+    </section>-->
+
+    <!-- Portfolio end -->
+
+    <!-- Services start -->
+
+    <section id="services" class="module module-gray">
+        <div class="container">
+
+            <div class="module-header wow fadeInUp">
+                <h2 class="module-title">
+                    My Services
+                    <span>Services</span>
+                </h2>
+                <div class="module-line"></div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <div class="iconbox wow fadeInUp">
+                        <div class="iconbox-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Between Us</h3>
+                            <div class="iconbox-desc">
+                                Direct one to one counseling for intimate sessions to explore your own parent, adult and child state. Understand your own drivers and use them to your advantage.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="iconbox wow fadeInUp">
+                        <div class="iconbox-icon">
+                            <i class="fas fa-user-friends"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Be you(rself)</h3>
+                            <div class="iconbox-desc">
+                                Couple and Group counseling to develop and grow as a team, and to explore and understand the roles and boundaries of a group and its individuals for a smoother collaboration  (privately and professionally).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="iconbox wow fadeInUp" data-wow-delay=".2s">
+                        <div class="iconbox-icon">
+                            <i class="fas fa-atlas"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Cultural Awareness</h3>
+                            <div class="iconbox-desc">
+                                For a better understanding of your own, or your counterparts troubles when interacting across the globe into different cultures, and in particular in the german one.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="col-sm-4">
+
+                    <div class="iconbox wow fadeInUp" data-wow-delay=".4s">
+                        <div class="iconbox-icon">
+                            <i class="far fa-comments"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Marketing</h3>
+                            <div class="iconbox-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <div class="iconbox wow fadeInUp" data-wow-delay=".6s">
+                        <div class="iconbox-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Design</h3>
+                            <div class="iconbox-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-4">
+
+                    <div class="iconbox wow fadeInUp" data-wow-delay=".8s">
+                        <div class="iconbox-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="iconbox-text">
+                            <h3 class="iconbox-title">Branding</h3>
+                            <div class="iconbox-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim...
+                            </div>
+                        </div>
+                    </div>
+
+                </div>-->
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+
+    <!-- Services end -->
+
+
 	<!-- Testimonial start -->
 
-	<div id="testimonial" class="module module-gray text-center">
+	<!--<div id="testimonial" class="module module-gray text-center">
 		<div class="container">
-			
+
 			<div class="module-header wow fadeInUp">
 				<h2 class="module-title">
 					Testimony
@@ -433,15 +468,15 @@ layout: default
 
 				</div>
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</div>
+			</div>&lt;!&ndash; .row &ndash;&gt;
+		</div>&lt;!&ndash; .container &ndash;&gt;
+	</div>-->
 
 	<!-- Testimonial end -->
 
 	<!-- Blog start -->
 
-	<section id="blog" class="module blog">
+	<!--<section id="blog" class="module blog">
 		<div class="container">
 
 			<div class="module-header">
@@ -476,19 +511,19 @@ layout: default
 					<a class="blog-viewMore" href="{{site.baseurl}}blog.html">VIEW MORE</a>
 				</div>
 
-			</div><!-- .row -->
-		</div><!-- .container -->
-	</section>
+			</div>&lt;!&ndash; .row &ndash;&gt;
+		</div>&lt;!&ndash; .container &ndash;&gt;
+	</section>-->
 
 	<!-- Blog end -->
 
 	<!-- Google Map start-->
 
-	<div id="map-section">
+	<!--<div id="map-section">
 
 		<div id="map"></div>
 
-	</div>
+	</div>-->
 
 	<!-- Google Map end -->
 
