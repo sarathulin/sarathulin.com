@@ -1,6 +1,6 @@
 (function($){
 
-	"use strict"; 
+	"use strict";
 
 /* ---------------------------------------------- /*
 * Preloader
@@ -18,7 +18,7 @@ $(window).load(function() {
 $('a[href*=#]').on("click", function(e){
 	var anchor = $(this);
 	$('html, body').stop().animate({
-		scrollTop: $(anchor.attr('href')).offset().top
+		scrollTop: $(anchor.attr('href')).offset() ? $(anchor.attr('href')).offset().top : 0
 	}, 1000);
 	e.preventDefault();
 });

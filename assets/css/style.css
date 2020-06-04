@@ -423,6 +423,8 @@ textarea.form-control {
 
 .centered {
     text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
 }
 
 .module-header-left {
@@ -1339,6 +1341,7 @@ figure {
 	height: 400px;
 	width: 100%;
 	object-fit: cover;
+    object-position: 0 0;
 }
 
 .blog-detail-tags ul {
