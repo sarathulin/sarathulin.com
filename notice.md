@@ -6,9 +6,9 @@ banner_image: imprint-banner.jpg
 ---
 
 
-### Responsibilities
+### Disclosure
 
- - Website contents: Sara Thulin
+ - Website contents and pictures: Sara Thulin
  - Website administrator: Stefan Schießl
 
 Following part is only available in German
