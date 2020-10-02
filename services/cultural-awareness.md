@@ -8,3 +8,5 @@ banner_image: services-banner-3.jpg
 category: Counseling
 tags: [sessions, workshops]
 ---
+
+Detailed description will follow.
