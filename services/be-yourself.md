@@ -8,6 +8,3 @@ banner_image: services-banner-2.jpg
 category: Counseling
 tags: [workshops]
 ---
-
-Detailed description will follow.
-
