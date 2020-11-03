@@ -7,4 +7,7 @@ description: "<b>Workshops</b> for groups to grow as a team through exercises, d
 banner_image: services-banner-2.jpg
 category: Counseling
 tags: [workshops]
+bottom_line: "No workshops during lockdown"
 ---
+
+Workshops offers tailored to your team and its needs. Contact me for an offer.

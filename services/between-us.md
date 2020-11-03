@@ -8,3 +8,7 @@ banner_image: services-banner-1.jpg
 category: Counseling
 tags: [sessions]
 ---
+
+This is the time to focus on you, and the challenges you are facing, what problems you want to work on and how to develop your own inner strength.
+
+Rate: 40€ / 60 Minutes.

@@ -333,7 +333,7 @@ layout: default
             <div class="row">
                 {% assign sorted_pages = site.pages | sort: 'order' %}
                 {% for page in sorted_pages %}
-                    {% if page.path contains "services/" %}
+                    {% if page.path contains "services/" and page.hidden == False %}
                         <div class="col-sm-4">
                             <a href="{{site.baseurl}}{{page.url}}" class="blogList wow fadeInUp">
                                 <div class="iconbox wow fadeInUp">
@@ -344,9 +344,16 @@ layout: default
                                         <h3 class="iconbox-title">{{page.title}}</h3>
                                         <div class="iconbox-desc">{{page.description}}</div>
                                     </div>
+                                    {{ page.hidden }}
                                     {% assign page_content = page.content | strip_newlines %}
                                     {% if page_content != "" %}
-                                        <div style="position: absolute; margin-top: 17px; font-size: smaller; color: lightgray; width: 100%; padding-right: 50px; text-align: right;">Details inside</div>
+                                        {% if page.bottom_line %}
+                                            <div style="position: absolute; margin-top: 17px; font-size: smaller; color: lightgray; width: 100%; padding-right: 50px; text-align: right;">
+                                                {{page.bottom_line}}
+                                            </div>
+                                        {% else %}
+                                            <div style="position: absolute; margin-top: 17px; font-size: smaller; color: lightgray; width: 100%; padding-right: 50px; text-align: right;">Details inside</div>
+                                        {% endif %}
                                     {% endif %}
                                 </div>
 
