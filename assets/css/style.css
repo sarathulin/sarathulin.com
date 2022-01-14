@@ -1068,11 +1068,11 @@ figure {
 
 .side-image {
 	position: absolute;
-	background: url("../images/about.jpg") scroll center no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: url("../images/about.jpg") scroll top no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
 	height: 100%;
 }
 
@@ -1182,7 +1182,7 @@ figure {
 .blogList-img img, .blog-wrapper.list-items-container .list-item img {
     height: 240px;
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .blogList-img span {

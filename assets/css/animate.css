@@ -2807,3 +2807,26 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+
+.collapsible {
+    margin-top: 1rem;
+    color:  rgba(253,115,90,1);
+    background-color: #f5f5f5;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.collapsible-active, .collapsible:hover {
+    background-color: rgba(253,115,90,1);
+    color: white;
+}
+
+.collapsible-content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
