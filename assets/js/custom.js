@@ -74,9 +74,9 @@ $('.testimonials').owlCarousel({
 	singleItem: true,
 	navigation: false,
 	pagination: true,
-	slideSpeed : 300,
-	paginationSpeed : 400,
-	autoPlay: 5000,
+	slideSpeed : 500,
+	paginationSpeed : 600,
+	autoPlay: 10000,
 	navigationText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
 });
 
