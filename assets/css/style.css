@@ -41,7 +41,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900);
 
 body {
-	font: 400 12px/1.8 'Poppins', sans-serif;
+	font: 400 20px/1.8 'Poppins', sans-serif;
 	color: #5b5963;
 	overflow-x: hidden;
 }
@@ -107,7 +107,7 @@ h2 {
 }
 
 h3 {
-	font-size: 13px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	margin: 0 0 5px;
 }
@@ -239,7 +239,7 @@ h6 {
 .form-control {
 	background: #fff none repeat scroll 0 0;
 	border: 1px solid #ddd;
-	font-size: 12px;
+	font-size: 20px;
 	padding: 0 15px;
 }
 .form-control:focus {
@@ -305,7 +305,7 @@ textarea.form-control {
 }
 
 .btn-custom-2 {
-	background: rgba(253,115,90,1);
+	background: #c8687cff;
 	border-radius: 3px;
 	color: #fff;
 }
@@ -314,7 +314,7 @@ textarea.form-control {
 .btn-custom-2:focus,
 .btn-custom-2:active,
 .btn-custom-2.active {
-	background: rgba(253,115,90,1);
+	background: #c8687cff;
 	color: #fff;
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.1)
 }
@@ -380,6 +380,12 @@ textarea.form-control {
 * Main
 /* ---------------------------------------------- */
 
+.block-of-text {
+    max-width: 1400px;
+    text-align: justify;
+    margin: auto;
+}
+
 .module {
 	padding: 120px 0 100px;
 }
@@ -423,8 +429,8 @@ textarea.form-control {
 
 .centered {
     text-align: center;
-    margin-left: 45px;
-    margin-right: 45px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 .module-header-left {
@@ -450,7 +456,7 @@ textarea.form-control {
 
 .module-icon {
 	font-size: 32px;
-	color: rgba(253,115,90,1);
+	color: #c8687cff;
 	margin: 0 auto;
 	height: 80px;
 	width: 80px;
@@ -597,7 +603,7 @@ textarea.form-control {
 
 .hello,
 .who-creates {
-	font-size: 16px;
+	font-size: 20px;
 	text-transform: none;
 	margin: 15px 0;
 	font-weight: 200;
@@ -761,7 +767,7 @@ textarea.form-control {
 }
 
 .navbar-custom .nav li.active, .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus, .navbar-custom .navbar-nav > li.active a {
-	background: rgba(253,115,90,1);
+	background: #c8687cff;
 	color: #fff;
 	outline: 0 none;
 }
@@ -825,7 +831,7 @@ textarea.form-control {
 
 #filter li:hover,
 #filter li.active {
-	background: rgba(253,115,90,1);
+	background: #c8687cff;
 	color: #fff;
 }
 
@@ -1029,7 +1035,7 @@ figure {
 }
 
 .iconbox-icon {
-	color: rgba(253,115,90,1);
+	color: #c8687cff;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -1093,7 +1099,7 @@ figure {
 	top: 0;
 	font-size: 32px;
 	line-height: 1;
-	color: rgba(253,115,90,1);
+	color: #c8687cff;
 }
 
 .iconboxleft-text {
@@ -1122,12 +1128,10 @@ figure {
 }
 
 .single-testimonials p {
-	font-size: 13px;
 }
 
 .single-testimonials span {
 	font-weight: 700;
-	font-size: 12px;
 }
 
 .owl-theme .owl-controls {
@@ -1143,7 +1147,7 @@ figure {
 }
 
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
-	background-color: rgba(253,115,90,1);
+	background-color: #c8687cff;
 	width: 20px
 }
 
@@ -1203,7 +1207,7 @@ figure {
 }
 
 .blogList:hover .blogList-img span {
-    background: rgba(253,115,90,1);
+    background: #c8687cff;
     color: #fff;
 }
 
@@ -1228,7 +1232,7 @@ figure {
     -ms-transition: all 0.4s ease-in-out 0s;
     -o-transition: all 0.4s ease-in-out 0s;
     transition: all 0.4s ease-in-out 0s;
-    background: rgba(253,115,90,1);
+    background: #c8687cff;
     color: #fff;
     max-width: 170px;
     margin: 10px auto;
@@ -1275,6 +1279,7 @@ figure {
     z-index: 11;
     position: relative;
     border-radius: 10px;
+    text-align: justify;
 }
 
 .blog-detail-content p {
@@ -1292,7 +1297,7 @@ figure {
 .blog-detail-content blockquote {
     font-size: 13px;
     background: #f5f5f5;
-    border-color: rgba(253,115,90,1);
+    border-color: #c8687cff;
 }
 
 .blog-detail-content blockquote p {
@@ -1332,7 +1337,7 @@ figure {
     padding: 3px 15px;
     color: #fff;
     text-transform: capitalize;
-    background: rgba(253,115,90,1);
+    background: #c8687cff;
     border-radius: 2px;
     margin: 15px 0;
 }
@@ -1364,7 +1369,7 @@ figure {
 }
 
 .tags:hover {
-	background-color: rgba(253,115,90,1);
+	background-color: #c8687cff;
 	color: #ffffff;
 }
 
@@ -1392,7 +1397,7 @@ figure {
 }
 
 .blog-nav:hover {
-    background: rgba(253,115,90,1);
+    background: #c8687cff;
     color: #fff;
 }
 
